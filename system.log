@@ -1,0 +1,1190 @@
+2019-10-30 19:23:18.449  INFO 1756 --- [main] com.qfedu.point.PointStudyApplication    : Starting PointStudyApplication on ICOS-20190714QI with PID 1756 (E:\Java\TestWorkplace\Day1029_PointStudy\target\classes started by Stream in E:\Java\TestWorkplace\Day1029_PointStudy)
+2019-10-30 19:23:18.466  INFO 1756 --- [main] com.qfedu.point.PointStudyApplication    : No active profile set, falling back to default profiles: default
+2019-10-30 19:23:29.162  INFO 1756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-30 19:23:32.356  INFO 1756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-30 19:23:32.421  INFO 1756 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-30 19:23:32.422  INFO 1756 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 19:23:33.386  INFO 1756 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-30 19:23:33.387  INFO 1756 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 14416 ms
+2019-10-30 19:23:35.897  INFO 1756 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-10-30 19:23:42.575  INFO 1756 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2019-10-30 19:23:43.354  INFO 1756 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 19:23:44.469  INFO 1756 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-30 19:23:44.614  INFO 1756 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-30 19:23:44.901  INFO 1756 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-30 19:23:46.064  INFO 1756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-30 19:23:46.101  INFO 1756 --- [main] com.qfedu.point.PointStudyApplication    : Started PointStudyApplication in 31.511 seconds (JVM running for 40.69)
+2019-10-30 19:24:16.700  INFO 1756 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 19:24:16.710  INFO 1756 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-30 19:24:16.794  INFO 1756 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 81 ms
+2019-10-30 19:24:33.696  INFO 1756 --- [http-nio-8080-exec-6] us.codecraft.webmagic.Spider             : Spider www.cnblogs.com started!
+2019-10-30 19:24:35.293  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com/
+2019-10-30 19:24:40.265  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/2
+2019-10-30 19:24:40.284  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/3
+2019-10-30 19:24:40.308  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/4
+2019-10-30 19:24:41.076  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/6
+2019-10-30 19:24:41.104  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/5
+2019-10-30 19:24:44.862  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/10
+2019-10-30 19:24:44.880  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/11
+2019-10-30 19:24:45.683  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/7
+2019-10-30 19:24:45.754  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/9
+2019-10-30 19:24:47.070  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/8
+2019-10-30 19:24:47.450  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/12
+2019-10-30 19:24:47.471  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/13
+2019-10-30 19:24:48.275  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/14
+2019-10-30 19:24:48.559  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/15
+2019-10-30 19:24:49.602  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/16
+2019-10-30 19:24:50.803  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/19
+2019-10-30 19:24:51.083  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/20
+2019-10-30 19:24:51.099  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/18
+2019-10-30 19:24:51.161  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/17
+2019-10-30 19:24:51.792 ERROR 1756 --- [pool-1-thread-4] us.codecraft.webmagic.Spider             : process request Request{url='https://www.cnblogs.com//sitehome/p/19', method='null', extras=null, priority=0, headers={}, cookies={}} error
+
+org.springframework.jdbc.UncategorizedSQLException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x99\x8A \xE8...' for column 'summary' at row 1
+### The error may exist in com/qfedu/point/dao/BkyArticleDao.java (best guess)
+### The error may involve com.qfedu.point.dao.BkyArticleDao.save-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_bkyarticle(title,summary,detailurl,pubtime,ctime) values(?,?,?,?,now())
+### Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x99\x8A \xE8...' for column 'summary' at row 1
+; uncategorized SQLException; SQL state [HY000]; error code [1366]; Incorrect string value: '\xF0\x9F\x99\x8A \xE8...' for column 'summary' at row 1; nested exception is java.sql.SQLException: Incorrect string value: '\xF0\x9F\x99\x8A \xE8...' for column 'summary' at row 1
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.sun.proxy.$Proxy70.insert(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:58) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:62) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.sun.proxy.$Proxy74.save(Unknown Source) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_211]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at com.sun.proxy.$Proxy75.save(Unknown Source) ~[na:na]
+	at com.qfedu.point.page.BkyArticlePipeline.process(BkyArticlePipeline.java:26) ~[classes/:na]
+	at com.qfedu.point.page.BkyArticlePipeline$$FastClassBySpringCGLIB$$fad82c2f.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at com.qfedu.point.page.BkyArticlePipeline$$EnhancerBySpringCGLIB$$848d102a.process(<generated>) ~[classes/:na]
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:418) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74) [webmagic-core-0.7.3.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_211]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_211]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_211]
+Caused by: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x99\x8A \xE8...' for column 'summary' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497) ~[druid-1.1.20.jar:1.1.20]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74) ~[mybatis-3.5.1.jar:3.5.1]
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doUpdate(MybatisSimpleExecutor.java:54) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184) ~[mybatis-3.5.1.jar:3.5.1]
+	at sun.reflect.GeneratedMethodAccessor65.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_211]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	... 34 common frames omitted
+
+2019-10-30 19:24:51.920  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/21
+2019-10-30 19:24:51.947  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/22
+2019-10-30 19:24:54.442  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/23
+2019-10-30 19:24:54.491  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/24
+2019-10-30 19:24:55.877  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/27
+2019-10-30 19:24:56.073  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/25
+2019-10-30 19:24:56.161  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/26
+2019-10-30 19:24:57.757  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/28
+2019-10-30 19:24:57.772  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/29
+2019-10-30 19:24:59.229  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/30
+2019-10-30 19:24:59.664  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/31
+2019-10-30 19:24:59.930  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/32
+2019-10-30 19:25:01.231  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/34
+2019-10-30 19:25:01.242  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/33
+2019-10-30 19:25:02.400  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/35
+2019-10-30 19:25:03.078  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/36
+2019-10-30 19:25:03.793  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/37
+2019-10-30 19:25:04.716  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/39
+2019-10-30 19:25:04.992  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/38
+2019-10-30 19:25:05.575  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/40
+2019-10-30 19:25:06.662  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/41
+2019-10-30 19:25:07.057  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/42
+2019-10-30 19:25:07.231 ERROR 1756 --- [pool-1-thread-2] us.codecraft.webmagic.Spider             : process request Request{url='https://www.cnblogs.com//sitehome/p/42', method='null', extras=null, priority=0, headers={}, cookies={}} error
+
+org.springframework.jdbc.UncategorizedSQLException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x94\xA5\xF0\x9F...' for column 'summary' at row 1
+### The error may exist in com/qfedu/point/dao/BkyArticleDao.java (best guess)
+### The error may involve com.qfedu.point.dao.BkyArticleDao.save-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_bkyarticle(title,summary,detailurl,pubtime,ctime) values(?,?,?,?,now())
+### Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x94\xA5\xF0\x9F...' for column 'summary' at row 1
+; uncategorized SQLException; SQL state [HY000]; error code [1366]; Incorrect string value: '\xF0\x9F\x94\xA5\xF0\x9F...' for column 'summary' at row 1; nested exception is java.sql.SQLException: Incorrect string value: '\xF0\x9F\x94\xA5\xF0\x9F...' for column 'summary' at row 1
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.sun.proxy.$Proxy70.insert(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:58) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:62) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.sun.proxy.$Proxy74.save(Unknown Source) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_211]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at com.sun.proxy.$Proxy75.save(Unknown Source) ~[na:na]
+	at com.qfedu.point.page.BkyArticlePipeline.process(BkyArticlePipeline.java:26) ~[classes/:na]
+	at com.qfedu.point.page.BkyArticlePipeline$$FastClassBySpringCGLIB$$fad82c2f.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at com.qfedu.point.page.BkyArticlePipeline$$EnhancerBySpringCGLIB$$848d102a.process(<generated>) ~[classes/:na]
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:418) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74) [webmagic-core-0.7.3.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_211]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_211]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_211]
+Caused by: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x94\xA5\xF0\x9F...' for column 'summary' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497) ~[druid-1.1.20.jar:1.1.20]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74) ~[mybatis-3.5.1.jar:3.5.1]
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doUpdate(MybatisSimpleExecutor.java:54) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184) ~[mybatis-3.5.1.jar:3.5.1]
+	at sun.reflect.GeneratedMethodAccessor65.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_211]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	... 34 common frames omitted
+
+2019-10-30 19:25:08.006  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/43
+2019-10-30 19:25:08.949  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/44
+2019-10-30 19:25:08.994  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/46
+2019-10-30 19:25:09.034  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/45
+2019-10-30 19:25:09.844  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/47
+2019-10-30 19:25:11.331  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/48
+2019-10-30 19:25:12.614  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/49
+2019-10-30 19:25:12.642  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/51
+2019-10-30 19:25:12.651  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/50
+2019-10-30 19:25:13.212  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/52
+2019-10-30 19:25:14.544  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/53
+2019-10-30 19:25:14.767 ERROR 1756 --- [pool-1-thread-3] us.codecraft.webmagic.Spider             : process request Request{url='https://www.cnblogs.com//sitehome/p/53', method='null', extras=null, priority=0, headers={}, cookies={}} error
+
+org.springframework.jdbc.UncategorizedSQLException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x94\xA5 \xE9...' for column 'title' at row 1
+### The error may exist in com/qfedu/point/dao/BkyArticleDao.java (best guess)
+### The error may involve com.qfedu.point.dao.BkyArticleDao.save-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_bkyarticle(title,summary,detailurl,pubtime,ctime) values(?,?,?,?,now())
+### Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x94\xA5 \xE9...' for column 'title' at row 1
+; uncategorized SQLException; SQL state [HY000]; error code [1366]; Incorrect string value: '\xF0\x9F\x94\xA5 \xE9...' for column 'title' at row 1; nested exception is java.sql.SQLException: Incorrect string value: '\xF0\x9F\x94\xA5 \xE9...' for column 'title' at row 1
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.sun.proxy.$Proxy70.insert(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:58) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:62) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.sun.proxy.$Proxy74.save(Unknown Source) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_211]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at com.sun.proxy.$Proxy75.save(Unknown Source) ~[na:na]
+	at com.qfedu.point.page.BkyArticlePipeline.process(BkyArticlePipeline.java:26) ~[classes/:na]
+	at com.qfedu.point.page.BkyArticlePipeline$$FastClassBySpringCGLIB$$fad82c2f.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at com.qfedu.point.page.BkyArticlePipeline$$EnhancerBySpringCGLIB$$848d102a.process(<generated>) ~[classes/:na]
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:418) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74) [webmagic-core-0.7.3.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_211]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_211]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_211]
+Caused by: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x94\xA5 \xE9...' for column 'title' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497) ~[druid-1.1.20.jar:1.1.20]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74) ~[mybatis-3.5.1.jar:3.5.1]
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doUpdate(MybatisSimpleExecutor.java:54) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184) ~[mybatis-3.5.1.jar:3.5.1]
+	at sun.reflect.GeneratedMethodAccessor65.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_211]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	... 34 common frames omitted
+
+2019-10-30 19:25:15.816  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/54
+2019-10-30 19:25:15.910 ERROR 1756 --- [pool-1-thread-3] us.codecraft.webmagic.Spider             : process request Request{url='https://www.cnblogs.com//sitehome/p/54', method='null', extras=null, priority=0, headers={}, cookies={}} error
+
+org.springframework.jdbc.UncategorizedSQLException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x9A\x97 \xE5...' for column 'summary' at row 1
+### The error may exist in com/qfedu/point/dao/BkyArticleDao.java (best guess)
+### The error may involve com.qfedu.point.dao.BkyArticleDao.save-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_bkyarticle(title,summary,detailurl,pubtime,ctime) values(?,?,?,?,now())
+### Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x9A\x97 \xE5...' for column 'summary' at row 1
+; uncategorized SQLException; SQL state [HY000]; error code [1366]; Incorrect string value: '\xF0\x9F\x9A\x97 \xE5...' for column 'summary' at row 1; nested exception is java.sql.SQLException: Incorrect string value: '\xF0\x9F\x9A\x97 \xE5...' for column 'summary' at row 1
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.sun.proxy.$Proxy70.insert(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:58) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:62) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.sun.proxy.$Proxy74.save(Unknown Source) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_211]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at com.sun.proxy.$Proxy75.save(Unknown Source) ~[na:na]
+	at com.qfedu.point.page.BkyArticlePipeline.process(BkyArticlePipeline.java:26) ~[classes/:na]
+	at com.qfedu.point.page.BkyArticlePipeline$$FastClassBySpringCGLIB$$fad82c2f.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at com.qfedu.point.page.BkyArticlePipeline$$EnhancerBySpringCGLIB$$848d102a.process(<generated>) ~[classes/:na]
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:418) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74) [webmagic-core-0.7.3.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_211]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_211]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_211]
+Caused by: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x9A\x97 \xE5...' for column 'summary' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497) ~[druid-1.1.20.jar:1.1.20]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74) ~[mybatis-3.5.1.jar:3.5.1]
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doUpdate(MybatisSimpleExecutor.java:54) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184) ~[mybatis-3.5.1.jar:3.5.1]
+	at sun.reflect.GeneratedMethodAccessor65.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_211]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	... 34 common frames omitted
+
+2019-10-30 19:25:16.441  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/57
+2019-10-30 19:25:16.655  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/55
+2019-10-30 19:25:16.829  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/58
+2019-10-30 19:25:16.997  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/59
+2019-10-30 19:25:17.007  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/56
+2019-10-30 19:25:17.362 ERROR 1756 --- [pool-1-thread-1] us.codecraft.webmagic.Spider             : process request Request{url='https://www.cnblogs.com//sitehome/p/58', method='null', extras=null, priority=0, headers={}, cookies={}} error
+
+org.springframework.jdbc.UncategorizedSQLException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x94\xA5 \xE9...' for column 'title' at row 1
+### The error may exist in com/qfedu/point/dao/BkyArticleDao.java (best guess)
+### The error may involve com.qfedu.point.dao.BkyArticleDao.save-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_bkyarticle(title,summary,detailurl,pubtime,ctime) values(?,?,?,?,now())
+### Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x94\xA5 \xE9...' for column 'title' at row 1
+; uncategorized SQLException; SQL state [HY000]; error code [1366]; Incorrect string value: '\xF0\x9F\x94\xA5 \xE9...' for column 'title' at row 1; nested exception is java.sql.SQLException: Incorrect string value: '\xF0\x9F\x94\xA5 \xE9...' for column 'title' at row 1
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.sun.proxy.$Proxy70.insert(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:58) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:62) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.sun.proxy.$Proxy74.save(Unknown Source) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_211]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at com.sun.proxy.$Proxy75.save(Unknown Source) ~[na:na]
+	at com.qfedu.point.page.BkyArticlePipeline.process(BkyArticlePipeline.java:26) ~[classes/:na]
+	at com.qfedu.point.page.BkyArticlePipeline$$FastClassBySpringCGLIB$$fad82c2f.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at com.qfedu.point.page.BkyArticlePipeline$$EnhancerBySpringCGLIB$$848d102a.process(<generated>) ~[classes/:na]
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:418) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74) [webmagic-core-0.7.3.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_211]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_211]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_211]
+Caused by: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x94\xA5 \xE9...' for column 'title' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497) ~[druid-1.1.20.jar:1.1.20]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74) ~[mybatis-3.5.1.jar:3.5.1]
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doUpdate(MybatisSimpleExecutor.java:54) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184) ~[mybatis-3.5.1.jar:3.5.1]
+	at sun.reflect.GeneratedMethodAccessor65.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_211]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	... 34 common frames omitted
+
+2019-10-30 19:25:18.479  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/60
+2019-10-30 19:25:19.776  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/61
+2019-10-30 19:25:20.257  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/62
+2019-10-30 19:25:21.595  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/63
+2019-10-30 19:25:21.637  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/64
+2019-10-30 19:25:21.837  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/65
+2019-10-30 19:25:23.425  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/67
+2019-10-30 19:25:23.603  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/66
+2019-10-30 19:25:24.914  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/68
+2019-10-30 19:25:25.047  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/69
+2019-10-30 19:25:25.353 ERROR 1756 --- [pool-1-thread-2] us.codecraft.webmagic.Spider             : process request Request{url='https://www.cnblogs.com//sitehome/p/69', method='null', extras=null, priority=0, headers={}, cookies={}} error
+
+org.springframework.jdbc.UncategorizedSQLException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x98\x84 ....' for column 'summary' at row 1
+### The error may exist in com/qfedu/point/dao/BkyArticleDao.java (best guess)
+### The error may involve com.qfedu.point.dao.BkyArticleDao.save-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_bkyarticle(title,summary,detailurl,pubtime,ctime) values(?,?,?,?,now())
+### Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x98\x84 ....' for column 'summary' at row 1
+; uncategorized SQLException; SQL state [HY000]; error code [1366]; Incorrect string value: '\xF0\x9F\x98\x84 ....' for column 'summary' at row 1; nested exception is java.sql.SQLException: Incorrect string value: '\xF0\x9F\x98\x84 ....' for column 'summary' at row 1
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.sun.proxy.$Proxy70.insert(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:58) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:62) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.sun.proxy.$Proxy74.save(Unknown Source) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_211]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at com.sun.proxy.$Proxy75.save(Unknown Source) ~[na:na]
+	at com.qfedu.point.page.BkyArticlePipeline.process(BkyArticlePipeline.java:26) ~[classes/:na]
+	at com.qfedu.point.page.BkyArticlePipeline$$FastClassBySpringCGLIB$$fad82c2f.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at com.qfedu.point.page.BkyArticlePipeline$$EnhancerBySpringCGLIB$$848d102a.process(<generated>) ~[classes/:na]
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:418) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74) [webmagic-core-0.7.3.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_211]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_211]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_211]
+Caused by: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x98\x84 ....' for column 'summary' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497) ~[druid-1.1.20.jar:1.1.20]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74) ~[mybatis-3.5.1.jar:3.5.1]
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doUpdate(MybatisSimpleExecutor.java:54) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184) ~[mybatis-3.5.1.jar:3.5.1]
+	at sun.reflect.GeneratedMethodAccessor65.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_211]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	... 34 common frames omitted
+
+2019-10-30 19:25:25.390  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/70
+2019-10-30 19:25:26.264  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/71
+2019-10-30 19:25:26.963  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/72
+2019-10-30 19:25:27.644  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/73
+2019-10-30 19:25:28.137  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/74
+2019-10-30 19:25:29.140  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/75
+2019-10-30 19:25:29.460  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/76
+2019-10-30 19:25:30.436  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/77
+2019-10-30 19:25:31.195  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/78
+2019-10-30 19:25:31.452  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/79
+2019-10-30 19:25:32.494  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/80
+2019-10-30 19:25:32.731 ERROR 1756 --- [pool-1-thread-1] us.codecraft.webmagic.Spider             : process request Request{url='https://www.cnblogs.com//sitehome/p/80', method='null', extras=null, priority=0, headers={}, cookies={}} error
+
+org.springframework.jdbc.UncategorizedSQLException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x98\x8E\xE3\x80...' for column 'summary' at row 1
+### The error may exist in com/qfedu/point/dao/BkyArticleDao.java (best guess)
+### The error may involve com.qfedu.point.dao.BkyArticleDao.save-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_bkyarticle(title,summary,detailurl,pubtime,ctime) values(?,?,?,?,now())
+### Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x98\x8E\xE3\x80...' for column 'summary' at row 1
+; uncategorized SQLException; SQL state [HY000]; error code [1366]; Incorrect string value: '\xF0\x9F\x98\x8E\xE3\x80...' for column 'summary' at row 1; nested exception is java.sql.SQLException: Incorrect string value: '\xF0\x9F\x98\x8E\xE3\x80...' for column 'summary' at row 1
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.sun.proxy.$Proxy70.insert(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:58) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:62) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.sun.proxy.$Proxy74.save(Unknown Source) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_211]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at com.sun.proxy.$Proxy75.save(Unknown Source) ~[na:na]
+	at com.qfedu.point.page.BkyArticlePipeline.process(BkyArticlePipeline.java:26) ~[classes/:na]
+	at com.qfedu.point.page.BkyArticlePipeline$$FastClassBySpringCGLIB$$fad82c2f.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at com.qfedu.point.page.BkyArticlePipeline$$EnhancerBySpringCGLIB$$848d102a.process(<generated>) ~[classes/:na]
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:418) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74) [webmagic-core-0.7.3.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_211]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_211]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_211]
+Caused by: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x98\x8E\xE3\x80...' for column 'summary' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497) ~[druid-1.1.20.jar:1.1.20]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74) ~[mybatis-3.5.1.jar:3.5.1]
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doUpdate(MybatisSimpleExecutor.java:54) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184) ~[mybatis-3.5.1.jar:3.5.1]
+	at sun.reflect.GeneratedMethodAccessor65.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_211]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	... 34 common frames omitted
+
+2019-10-30 19:25:32.835  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/81
+2019-10-30 19:25:33.301 ERROR 1756 --- [pool-1-thread-2] us.codecraft.webmagic.Spider             : process request Request{url='https://www.cnblogs.com//sitehome/p/81', method='null', extras=null, priority=0, headers={}, cookies={}} error
+
+org.springframework.jdbc.UncategorizedSQLException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\xA4\xAB\xE5\x98...' for column 'summary' at row 1
+### The error may exist in com/qfedu/point/dao/BkyArticleDao.java (best guess)
+### The error may involve com.qfedu.point.dao.BkyArticleDao.save-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_bkyarticle(title,summary,detailurl,pubtime,ctime) values(?,?,?,?,now())
+### Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\xA4\xAB\xE5\x98...' for column 'summary' at row 1
+; uncategorized SQLException; SQL state [HY000]; error code [1366]; Incorrect string value: '\xF0\x9F\xA4\xAB\xE5\x98...' for column 'summary' at row 1; nested exception is java.sql.SQLException: Incorrect string value: '\xF0\x9F\xA4\xAB\xE5\x98...' for column 'summary' at row 1
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.sun.proxy.$Proxy70.insert(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:58) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:62) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.sun.proxy.$Proxy74.save(Unknown Source) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_211]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at com.sun.proxy.$Proxy75.save(Unknown Source) ~[na:na]
+	at com.qfedu.point.page.BkyArticlePipeline.process(BkyArticlePipeline.java:26) ~[classes/:na]
+	at com.qfedu.point.page.BkyArticlePipeline$$FastClassBySpringCGLIB$$fad82c2f.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at com.qfedu.point.page.BkyArticlePipeline$$EnhancerBySpringCGLIB$$848d102a.process(<generated>) ~[classes/:na]
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:418) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74) [webmagic-core-0.7.3.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_211]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_211]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_211]
+Caused by: java.sql.SQLException: Incorrect string value: '\xF0\x9F\xA4\xAB\xE5\x98...' for column 'summary' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497) ~[druid-1.1.20.jar:1.1.20]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74) ~[mybatis-3.5.1.jar:3.5.1]
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doUpdate(MybatisSimpleExecutor.java:54) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184) ~[mybatis-3.5.1.jar:3.5.1]
+	at sun.reflect.GeneratedMethodAccessor65.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_211]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	... 34 common frames omitted
+
+2019-10-30 19:25:33.610  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/82
+2019-10-30 19:25:33.797  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/85
+2019-10-30 19:25:33.828  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/83
+2019-10-30 19:25:33.954  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/86
+2019-10-30 19:25:34.260  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/84
+2019-10-30 19:25:34.538 ERROR 1756 --- [pool-1-thread-2] us.codecraft.webmagic.Spider             : process request Request{url='https://www.cnblogs.com//sitehome/p/84', method='null', extras=null, priority=0, headers={}, cookies={}} error
+
+org.springframework.jdbc.UncategorizedSQLException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x91\x89 \xE6...' for column 'summary' at row 1
+### The error may exist in com/qfedu/point/dao/BkyArticleDao.java (best guess)
+### The error may involve com.qfedu.point.dao.BkyArticleDao.save-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_bkyarticle(title,summary,detailurl,pubtime,ctime) values(?,?,?,?,now())
+### Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x91\x89 \xE6...' for column 'summary' at row 1
+; uncategorized SQLException; SQL state [HY000]; error code [1366]; Incorrect string value: '\xF0\x9F\x91\x89 \xE6...' for column 'summary' at row 1; nested exception is java.sql.SQLException: Incorrect string value: '\xF0\x9F\x91\x89 \xE6...' for column 'summary' at row 1
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.sun.proxy.$Proxy70.insert(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:58) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:62) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.sun.proxy.$Proxy74.save(Unknown Source) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_211]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at com.sun.proxy.$Proxy75.save(Unknown Source) ~[na:na]
+	at com.qfedu.point.page.BkyArticlePipeline.process(BkyArticlePipeline.java:26) ~[classes/:na]
+	at com.qfedu.point.page.BkyArticlePipeline$$FastClassBySpringCGLIB$$fad82c2f.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at com.qfedu.point.page.BkyArticlePipeline$$EnhancerBySpringCGLIB$$848d102a.process(<generated>) ~[classes/:na]
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:418) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74) [webmagic-core-0.7.3.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_211]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_211]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_211]
+Caused by: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x91\x89 \xE6...' for column 'summary' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497) ~[druid-1.1.20.jar:1.1.20]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74) ~[mybatis-3.5.1.jar:3.5.1]
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doUpdate(MybatisSimpleExecutor.java:54) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184) ~[mybatis-3.5.1.jar:3.5.1]
+	at sun.reflect.GeneratedMethodAccessor65.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_211]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	... 34 common frames omitted
+
+2019-10-30 19:25:35.520  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/87
+2019-10-30 19:25:37.409  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/91
+2019-10-30 19:25:37.748  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/88
+2019-10-30 19:25:37.758  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/89
+2019-10-30 19:25:38.612  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/90
+2019-10-30 19:25:39.041  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/92
+2019-10-30 19:25:40.608  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/93
+2019-10-30 19:25:41.397  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/95
+2019-10-30 19:25:41.865  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/96
+2019-10-30 19:25:41.949  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/94
+2019-10-30 19:25:42.322  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/97
+2019-10-30 19:25:44.004  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/98
+2019-10-30 19:25:44.636  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/99
+2019-10-30 19:25:45.356  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/100
+2019-10-30 19:25:45.395  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/101
+2019-10-30 19:25:45.617  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/102
+2019-10-30 19:25:47.257  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/103
+2019-10-30 19:25:47.881  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/104
+2019-10-30 19:25:48.756  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/105
+2019-10-30 19:25:49.763  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/106
+2019-10-30 19:25:49.804  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/107
+2019-10-30 19:25:50.979  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/108
+2019-10-30 19:25:51.124  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/109
+2019-10-30 19:25:53.717  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/110
+2019-10-30 19:25:54.819  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/111
+2019-10-30 19:25:54.929  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/114
+2019-10-30 19:25:55.039  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/113
+2019-10-30 19:25:55.114  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/112
+2019-10-30 19:25:56.974  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/115
+2019-10-30 19:25:58.069  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/117
+2019-10-30 19:25:59.081  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/119
+2019-10-30 19:25:59.441  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/116
+2019-10-30 19:25:59.625  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/118
+2019-10-30 19:26:00.118  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/120
+2019-10-30 19:26:01.366  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/121
+2019-10-30 19:26:02.383  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/122
+2019-10-30 19:26:02.590 ERROR 1756 --- [pool-1-thread-1] us.codecraft.webmagic.Spider             : process request Request{url='https://www.cnblogs.com//sitehome/p/122', method='null', extras=null, priority=0, headers={}, cookies={}} error
+
+org.springframework.jdbc.UncategorizedSQLException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x98\x81\xF0\x9F...' for column 'summary' at row 1
+### The error may exist in com/qfedu/point/dao/BkyArticleDao.java (best guess)
+### The error may involve com.qfedu.point.dao.BkyArticleDao.save-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_bkyarticle(title,summary,detailurl,pubtime,ctime) values(?,?,?,?,now())
+### Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x98\x81\xF0\x9F...' for column 'summary' at row 1
+; uncategorized SQLException; SQL state [HY000]; error code [1366]; Incorrect string value: '\xF0\x9F\x98\x81\xF0\x9F...' for column 'summary' at row 1; nested exception is java.sql.SQLException: Incorrect string value: '\xF0\x9F\x98\x81\xF0\x9F...' for column 'summary' at row 1
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.sun.proxy.$Proxy70.insert(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:58) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:62) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.sun.proxy.$Proxy74.save(Unknown Source) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_211]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at com.sun.proxy.$Proxy75.save(Unknown Source) ~[na:na]
+	at com.qfedu.point.page.BkyArticlePipeline.process(BkyArticlePipeline.java:26) ~[classes/:na]
+	at com.qfedu.point.page.BkyArticlePipeline$$FastClassBySpringCGLIB$$fad82c2f.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at com.qfedu.point.page.BkyArticlePipeline$$EnhancerBySpringCGLIB$$848d102a.process(<generated>) ~[classes/:na]
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:418) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74) [webmagic-core-0.7.3.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_211]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_211]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_211]
+Caused by: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x98\x81\xF0\x9F...' for column 'summary' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497) ~[druid-1.1.20.jar:1.1.20]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74) ~[mybatis-3.5.1.jar:3.5.1]
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doUpdate(MybatisSimpleExecutor.java:54) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184) ~[mybatis-3.5.1.jar:3.5.1]
+	at sun.reflect.GeneratedMethodAccessor65.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_211]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	... 34 common frames omitted
+
+2019-10-30 19:26:02.715  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/123
+2019-10-30 19:26:03.411  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/125
+2019-10-30 19:26:03.563  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/126
+2019-10-30 19:26:03.646  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/124
+2019-10-30 19:26:04.574  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/127
+2019-10-30 19:26:06.183  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/128
+2019-10-30 19:26:06.824  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/129
+2019-10-30 19:26:07.112  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/130
+2019-10-30 19:26:07.139  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/131
+2019-10-30 19:26:07.967  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/132
+2019-10-30 19:26:09.383  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/133
+2019-10-30 19:26:10.039  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/134
+2019-10-30 19:26:10.515  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/136
+2019-10-30 19:26:10.532  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/135
+2019-10-30 19:26:11.315  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/137
+2019-10-30 19:26:12.675  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/138
+2019-10-30 19:26:13.302  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/139
+2019-10-30 19:26:15.097  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/140
+2019-10-30 19:26:15.275  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/141
+2019-10-30 19:26:15.494  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/142
+2019-10-30 19:26:16.745  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/143
+2019-10-30 19:26:17.430  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/144
+2019-10-30 19:26:18.960  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/145
+2019-10-30 19:26:19.244  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/146
+2019-10-30 19:26:19.407  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/147
+2019-10-30 19:26:19.758 ERROR 1756 --- [pool-1-thread-1] us.codecraft.webmagic.Spider             : process request Request{url='https://www.cnblogs.com//sitehome/p/146', method='null', extras=null, priority=0, headers={}, cookies={}} error
+
+org.springframework.jdbc.UncategorizedSQLException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x99\x8B\xE2\x80...' for column 'summary' at row 1
+### The error may exist in com/qfedu/point/dao/BkyArticleDao.java (best guess)
+### The error may involve com.qfedu.point.dao.BkyArticleDao.save-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_bkyarticle(title,summary,detailurl,pubtime,ctime) values(?,?,?,?,now())
+### Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x99\x8B\xE2\x80...' for column 'summary' at row 1
+; uncategorized SQLException; SQL state [HY000]; error code [1366]; Incorrect string value: '\xF0\x9F\x99\x8B\xE2\x80...' for column 'summary' at row 1; nested exception is java.sql.SQLException: Incorrect string value: '\xF0\x9F\x99\x8B\xE2\x80...' for column 'summary' at row 1
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.sun.proxy.$Proxy70.insert(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:58) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:62) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.sun.proxy.$Proxy74.save(Unknown Source) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_211]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at com.sun.proxy.$Proxy75.save(Unknown Source) ~[na:na]
+	at com.qfedu.point.page.BkyArticlePipeline.process(BkyArticlePipeline.java:26) ~[classes/:na]
+	at com.qfedu.point.page.BkyArticlePipeline$$FastClassBySpringCGLIB$$fad82c2f.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at com.qfedu.point.page.BkyArticlePipeline$$EnhancerBySpringCGLIB$$848d102a.process(<generated>) ~[classes/:na]
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:418) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74) [webmagic-core-0.7.3.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_211]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_211]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_211]
+Caused by: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x99\x8B\xE2\x80...' for column 'summary' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497) ~[druid-1.1.20.jar:1.1.20]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74) ~[mybatis-3.5.1.jar:3.5.1]
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doUpdate(MybatisSimpleExecutor.java:54) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184) ~[mybatis-3.5.1.jar:3.5.1]
+	at sun.reflect.GeneratedMethodAccessor65.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_211]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	... 34 common frames omitted
+
+2019-10-30 19:26:20.919  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/149
+2019-10-30 19:26:21.024  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/150
+2019-10-30 19:26:21.075  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/148
+2019-10-30 19:26:22.248  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/151
+2019-10-30 19:26:22.856  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/152
+2019-10-30 19:26:24.426  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/153
+2019-10-30 19:26:24.459  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/155
+2019-10-30 19:26:24.496  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/154
+2019-10-30 19:26:25.462  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/156
+2019-10-30 19:26:26.149  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/157
+2019-10-30 19:26:27.942  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/158
+2019-10-30 19:26:27.987  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/160
+2019-10-30 19:26:28.177  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/159
+2019-10-30 19:26:28.990  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/161
+2019-10-30 19:26:29.391  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/162
+2019-10-30 19:26:31.827  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/163
+2019-10-30 19:26:32.417  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/164
+2019-10-30 19:26:32.463  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/165
+2019-10-30 19:26:32.771  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/167
+2019-10-30 19:26:32.911  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/166
+2019-10-30 19:26:35.049  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/168
+2019-10-30 19:26:36.101  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/169
+2019-10-30 19:26:36.190  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/171
+2019-10-30 19:26:36.193  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/172
+2019-10-30 19:26:36.433  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/170
+2019-10-30 19:26:38.256  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/173
+2019-10-30 19:26:39.632  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/174
+2019-10-30 19:26:39.790  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/176
+2019-10-30 19:26:39.793  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/175
+2019-10-30 19:26:39.893 ERROR 1756 --- [pool-1-thread-1] us.codecraft.webmagic.Spider             : process request Request{url='https://www.cnblogs.com//sitehome/p/174', method='null', extras=null, priority=0, headers={}, cookies={}} error
+
+org.springframework.jdbc.UncategorizedSQLException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x91\x89 \xE6...' for column 'summary' at row 1
+### The error may exist in com/qfedu/point/dao/BkyArticleDao.java (best guess)
+### The error may involve com.qfedu.point.dao.BkyArticleDao.save-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_bkyarticle(title,summary,detailurl,pubtime,ctime) values(?,?,?,?,now())
+### Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x91\x89 \xE6...' for column 'summary' at row 1
+; uncategorized SQLException; SQL state [HY000]; error code [1366]; Incorrect string value: '\xF0\x9F\x91\x89 \xE6...' for column 'summary' at row 1; nested exception is java.sql.SQLException: Incorrect string value: '\xF0\x9F\x91\x89 \xE6...' for column 'summary' at row 1
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.sun.proxy.$Proxy70.insert(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:58) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:62) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.sun.proxy.$Proxy74.save(Unknown Source) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_211]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at com.sun.proxy.$Proxy75.save(Unknown Source) ~[na:na]
+	at com.qfedu.point.page.BkyArticlePipeline.process(BkyArticlePipeline.java:26) ~[classes/:na]
+	at com.qfedu.point.page.BkyArticlePipeline$$FastClassBySpringCGLIB$$fad82c2f.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at com.qfedu.point.page.BkyArticlePipeline$$EnhancerBySpringCGLIB$$848d102a.process(<generated>) ~[classes/:na]
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:418) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74) [webmagic-core-0.7.3.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_211]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_211]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_211]
+Caused by: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x91\x89 \xE6...' for column 'summary' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497) ~[druid-1.1.20.jar:1.1.20]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74) ~[mybatis-3.5.1.jar:3.5.1]
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doUpdate(MybatisSimpleExecutor.java:54) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184) ~[mybatis-3.5.1.jar:3.5.1]
+	at sun.reflect.GeneratedMethodAccessor65.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_211]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	... 34 common frames omitted
+
+2019-10-30 19:26:39.990  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/177
+2019-10-30 19:26:40.101 ERROR 1756 --- [pool-1-thread-4] us.codecraft.webmagic.Spider             : process request Request{url='https://www.cnblogs.com//sitehome/p/175', method='null', extras=null, priority=0, headers={}, cookies={}} error
+
+org.springframework.jdbc.UncategorizedSQLException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x98\x83 ....' for column 'summary' at row 1
+### The error may exist in com/qfedu/point/dao/BkyArticleDao.java (best guess)
+### The error may involve com.qfedu.point.dao.BkyArticleDao.save-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_bkyarticle(title,summary,detailurl,pubtime,ctime) values(?,?,?,?,now())
+### Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x98\x83 ....' for column 'summary' at row 1
+; uncategorized SQLException; SQL state [HY000]; error code [1366]; Incorrect string value: '\xF0\x9F\x98\x83 ....' for column 'summary' at row 1; nested exception is java.sql.SQLException: Incorrect string value: '\xF0\x9F\x98\x83 ....' for column 'summary' at row 1
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.sun.proxy.$Proxy70.insert(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:58) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:62) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.sun.proxy.$Proxy74.save(Unknown Source) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_211]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at com.sun.proxy.$Proxy75.save(Unknown Source) ~[na:na]
+	at com.qfedu.point.page.BkyArticlePipeline.process(BkyArticlePipeline.java:26) ~[classes/:na]
+	at com.qfedu.point.page.BkyArticlePipeline$$FastClassBySpringCGLIB$$fad82c2f.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at com.qfedu.point.page.BkyArticlePipeline$$EnhancerBySpringCGLIB$$848d102a.process(<generated>) ~[classes/:na]
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:418) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74) [webmagic-core-0.7.3.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_211]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_211]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_211]
+Caused by: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x98\x83 ....' for column 'summary' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497) ~[druid-1.1.20.jar:1.1.20]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74) ~[mybatis-3.5.1.jar:3.5.1]
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doUpdate(MybatisSimpleExecutor.java:54) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184) ~[mybatis-3.5.1.jar:3.5.1]
+	at sun.reflect.GeneratedMethodAccessor65.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_211]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	... 34 common frames omitted
+
+2019-10-30 19:26:41.124  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/179
+2019-10-30 19:26:41.195  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/178
+2019-10-30 19:26:41.480  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/180
+2019-10-30 19:26:44.534  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/181
+2019-10-30 19:26:44.552  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/182
+2019-10-30 19:26:45.462  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/185
+2019-10-30 19:26:46.118  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/183
+2019-10-30 19:26:46.156  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/184
+2019-10-30 19:26:46.574 ERROR 1756 --- [pool-1-thread-1] us.codecraft.webmagic.Spider             : process request Request{url='https://www.cnblogs.com//sitehome/p/184', method='null', extras=null, priority=0, headers={}, cookies={}} error
+
+org.springframework.jdbc.UncategorizedSQLException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x8C\x9A\xEF\xBC...' for column 'summary' at row 1
+### The error may exist in com/qfedu/point/dao/BkyArticleDao.java (best guess)
+### The error may involve com.qfedu.point.dao.BkyArticleDao.save-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_bkyarticle(title,summary,detailurl,pubtime,ctime) values(?,?,?,?,now())
+### Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x8C\x9A\xEF\xBC...' for column 'summary' at row 1
+; uncategorized SQLException; SQL state [HY000]; error code [1366]; Incorrect string value: '\xF0\x9F\x8C\x9A\xEF\xBC...' for column 'summary' at row 1; nested exception is java.sql.SQLException: Incorrect string value: '\xF0\x9F\x8C\x9A\xEF\xBC...' for column 'summary' at row 1
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81) ~[spring-jdbc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.sun.proxy.$Proxy70.insert(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:58) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:62) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at com.sun.proxy.$Proxy74.save(Unknown Source) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_211]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at com.sun.proxy.$Proxy75.save(Unknown Source) ~[na:na]
+	at com.qfedu.point.page.BkyArticlePipeline.process(BkyArticlePipeline.java:26) ~[classes/:na]
+	at com.qfedu.point.page.BkyArticlePipeline$$FastClassBySpringCGLIB$$fad82c2f.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689) ~[spring-aop-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at com.qfedu.point.page.BkyArticlePipeline$$EnhancerBySpringCGLIB$$848d102a.process(<generated>) ~[classes/:na]
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:418) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320) ~[webmagic-core-0.7.3.jar:na]
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74) [webmagic-core-0.7.3.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_211]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_211]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_211]
+Caused by: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x8C\x9A\xEF\xBC...' for column 'summary' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497) ~[druid-1.1.20.jar:1.1.20]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74) ~[mybatis-3.5.1.jar:3.5.1]
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doUpdate(MybatisSimpleExecutor.java:54) ~[mybatis-plus-core-3.1.2.jar:3.1.2]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184) ~[mybatis-3.5.1.jar:3.5.1]
+	at sun.reflect.GeneratedMethodAccessor65.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_211]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	... 34 common frames omitted
+
+2019-10-30 19:26:47.582  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/186
+2019-10-30 19:26:47.892  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/188
+2019-10-30 19:26:48.124  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/187
+2019-10-30 19:26:48.765  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/189
+2019-10-30 19:26:50.019  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/190
+2019-10-30 19:26:51.125  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/191
+2019-10-30 19:26:51.207  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/192
+2019-10-30 19:26:51.470  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/193
+2019-10-30 19:26:52.088  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/194
+2019-10-30 19:26:53.487  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/195
+2019-10-30 19:26:54.667  INFO 1756 --- [pool-1-thread-3] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/197
+2019-10-30 19:26:54.743  INFO 1756 --- [pool-1-thread-1] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/196
+2019-10-30 19:26:54.922  INFO 1756 --- [pool-1-thread-5] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/198
+2019-10-30 19:26:55.631  INFO 1756 --- [pool-1-thread-2] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/199
+2019-10-30 19:26:55.940  INFO 1756 --- [pool-1-thread-4] u.c.w.downloader.HttpClientDownloader    : downloading page success https://www.cnblogs.com//sitehome/p/200
+2019-10-30 19:26:58.310  INFO 1756 --- [http-nio-8080-exec-6] us.codecraft.webmagic.Spider             : Spider www.cnblogs.com closed! 200 pages downloaded.
+2019-10-30 19:31:35.176  INFO 1756 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-30 19:31:35.181  INFO 1756 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2019-10-30 19:31:35.213  INFO 1756 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
